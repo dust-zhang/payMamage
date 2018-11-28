@@ -1,9 +1,9 @@
 //
-//  PayModel.m
-//  movikr
+//  BMKPPayModel
+//  BMKP
 //
-//  Created by Mapollo27 on 15/9/14.
-//  Copyright (c) 2015年 movikr. All rights reserved.
+//  Created by dust.zhang on 18/11/28.
+//  Copyright (c) 2018年 BMKP. All rights reserved.
 //
 
 #import "BMKPPayModel.h"

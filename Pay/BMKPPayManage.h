@@ -2,8 +2,8 @@
 //  BMKPPayManage
 //  BMKP
 //
-//  Created by dust.zhang on 15/9/18.
-//  Copyright (c) 2018年 movikr. All rights reserved.
+//  Created by dust.zhang on 18/11/28.
+//  Copyright (c) 2018年 BMKP. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
