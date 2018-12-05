@@ -33,7 +33,8 @@ typedef NS_ENUM(NSInteger, PayCode)
 /* 支付宝支付
  orderString : 支付信息字符串
  backZfbTag  : 支付成功后的返回标识符 URL type 里的设置
- model       : 支付成功后返回的数据
+ success     : 支付成功后返回code
+ failure     : 支付失败后返回code
  */
 - (void) BMKPZhifubaoPay:(NSString *) orderString
                      tag:(NSString *) backZfbTag
@@ -42,7 +43,9 @@ typedef NS_ENUM(NSInteger, PayCode)
 
 /*
  微信支付
- weixinModel   : 微信支付参数model
+ weixinModel : 微信支付参数model
+ success     : 支付成功后返回code
+ failure     : 支付失败后返回code
  */
 - (void) BMKPWeixinPay:(WeinxinPayModel *) weixinModel
               success:(void (^)(PayCode code)) successBlock

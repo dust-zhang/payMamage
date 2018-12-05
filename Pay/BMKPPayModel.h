@@ -8,14 +8,6 @@
 
 #import "JSONModel.h"
 
-
-//支付宝回调
-@interface ZhifubaoModel : JSONModel
-@property (nonatomic ,strong) NSString<Optional> *memo;
-@property (nonatomic ,strong) NSString<Optional> *result;
-@property (nonatomic ,strong) NSString<Optional> *resultStatus;
-@end
-
 //微信支付
 @interface WeinxinPayModel : JSONModel
 @property (nonatomic ,strong) NSString<Optional> *appid;

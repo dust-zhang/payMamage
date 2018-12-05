@@ -69,19 +69,12 @@ static id _instance;
     }
 
     PayReq *request = [[PayReq alloc] init];
-    
-    request.partnerId =weixinModel.partnerid;   // @"1273488801";
-    
-    request.prepayId=weixinModel.prepayid;      // @"wx201509281755061f387968b80596929244";
-    
-    request.package = weixinModel.package;      //@"Sign=WXPay";
-    
-    request.nonceStr=weixinModel.noncestr;      // @"a1d7311f2a312426d710e1c617fcbc8c";
-    
-    request.timeStamp=[weixinModel.timestamp intValue]; // 1443434104;
-    
-    request.sign= weixinModel.sign;             //@"BE6A328038AF6F61BCD4E0193F9DF54F";
-    
+    request.partnerId =weixinModel.partnerid;
+    request.prepayId=weixinModel.prepayid;
+    request.package = weixinModel.package;
+    request.nonceStr=weixinModel.noncestr;
+    request.timeStamp=[weixinModel.timestamp intValue];
+    request.sign= weixinModel.sign;
     [WXApi sendReq:request];
     
     NSLog(@"wei xin pay string === %@",[weixinModel  toJSONString]);

@@ -8,9 +8,6 @@
 
 #import "BMKPPayModel.h"
 
-@implementation ZhifubaoModel
-@end
-
 @implementation WeinxinPayModel
 @end
 
